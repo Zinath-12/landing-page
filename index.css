@@ -201,10 +201,7 @@ nav ul li {
         text-align: center;
         font-size: 2em;
     }
-    .description{
-        
-
-    }
+ 
    .description-usp{
       padding: 24px;
         text-align: center;
@@ -217,9 +214,7 @@ nav ul li {
         padding: 24px;
         color:red;
     }
-    .signature p::before{
-
-    }
+   
     .usp-special{
         height: 300px;
         width: 300px;
