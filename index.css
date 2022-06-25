@@ -214,7 +214,7 @@ nav ul li {
         padding: 24px;
         color:red;
     }
-   
+
     .usp-special{
         height: 300px;
         width: 300px;
@@ -242,3 +242,8 @@ nav ul li {
         display: flex;
         padding: 64px;
     }
+    .explication p{
+        text-align: center;
+        padding: 24px;
+        }
+    
