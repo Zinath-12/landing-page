@@ -249,4 +249,13 @@ nav ul li {
         text-align: center;
         padding: 24px;
         }
-    
+      .explication .signature{
+            padding: 24px;
+            color:red;
+            text-align: center;
+        }
+        .photo-adresse{
+            background-image: url(./image/berries-2277_1920.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
