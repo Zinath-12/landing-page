@@ -272,7 +272,9 @@ nav ul li {
     .signature p{
         padding: 24px;
         color:red;
+        
     }
+    
 
     .usp-special{
         /* height: 300px; */
@@ -311,8 +313,63 @@ nav ul li {
             color:red;
             text-align: center;
         }
-        .photo-adresse{
-            background-image: url(./image/berries-2277_1920.jpg); 
+        .block1{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: end;
+            margin-bottom: 120px;
+            align-items: center;
+            padding: 60px;
+            background-image: url(./image/happy-birthday-916253_1920.jpg); 
             background-repeat: no-repeat;
             background-size: cover;
+            
+        }
+ 
+        .block2{
+            background-color: brown;
+            width: 400px;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        table{
+            padding: 16px 40px;
+        }
+        td{
+            padding: 16px 32px 16px 8px;
+        }
+        .titre{
+            display: flex;
+            align-items: flex-start;
+        }
+        .block2 h2{
+            text-align: center;
+        }
+        .nompre{
+            display: flex;
+            flex-direction: row;
+        }
+        .numero{
+            display: flex;
+            flex-direction: row;
+        }
+        label{
+            display: flex;
+            padding-top: 24px;
+            
+        }
+        .form{
+            
+            
+            align-items: center;
+        }
+        .form-input{
+            border: none;
+            border-bottom: 1px solid brown;
+            background-color: gainsboro;
+
         }
