@@ -32,6 +32,7 @@ header{
 .container{
     width: 80vw;
     margin: 0px auto;
+    
  
   
     
@@ -39,8 +40,7 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-betwee;
     width: 100%;
     }
 
@@ -50,7 +50,7 @@ nav ul li {
     padding: 16px 12px;
 }
 
-.logo{
+.logo h3{
     padding: 16px;
 }
 .couverture{
@@ -356,11 +356,12 @@ nav ul li {
         }
         .numero{
             display: flex;
-            flex-direction: row;}
+            flex-direction: row;
+            padding-top: 32px;
+        }
         label{
             display: flex;
-            padding-bottom: 8px;
-            padding-top: 8px;
+            color: rgb(31, 27, 27);
         }
         form{
             
@@ -374,12 +375,15 @@ nav ul li {
         margin-right: 24px;
         background-color: gainsboro;
         border-bottom: 0.5px solid brown;
+        width: 250px;
+
         }
         .form{
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            
         }
         .form h2{
             text-align: center;
@@ -391,7 +395,16 @@ nav ul li {
             padding: 8px 64px;
             font-size: 18px;
             background-color: brown;
+            transition: 300ms ease-in-out;
+         }
+         .bouton a:hover{
+            background-color: rgb(28, 84, 28);
+            cursor: pointer;
+            color: gainsboro;
+
          }
          .bouton{
             margin-top: 40px;
          }
+         
+         
