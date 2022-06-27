@@ -33,6 +33,7 @@ header{
     width: 80vw;
     margin: 0px auto;
     
+    
  
   
     
@@ -40,7 +41,7 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-betwee;
+    justify-content: space-between;
     width: 100%;
     }
 
@@ -312,7 +313,7 @@ nav ul li {
             text-align: center;
         }
         /* partie de la photo avec adresse */
-        .block1{
+        .photo-adresse{
             width: 100%;
             height: 500px;
             display: flex;
@@ -326,7 +327,7 @@ nav ul li {
             
         }
  
-        .block2{
+        .adresse{
             background-color: brown;
             width: 400px;
             height: 450px;
@@ -362,13 +363,11 @@ nav ul li {
         label{
             display: flex;
             color: rgb(31, 27, 27);
+            padding-bottom: 8px;
+            padding-top: 8px;
         }
-        form{
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 8px;
+        #contact{
+            width: 700px;
         
         }
         input{
@@ -376,14 +375,31 @@ nav ul li {
         background-color: gainsboro;
         border-bottom: 0.5px solid brown;
         width: 250px;
+    
 
         }
-        .form{
+        .form-flex{
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             
+            
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            flex-wrap: wrap;
+            margin: 24px 0px;
+           
+        }
+        .form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
         .form h2{
             text-align: center;
@@ -407,4 +423,11 @@ nav ul li {
             margin-top: 40px;
          }
          
-         
+         #contact input{
+            outline: none;
+            margin-right: 24px ;
+         }
+         .footer{
+            background-color: brown;
+         }
+        
