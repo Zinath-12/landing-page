@@ -126,7 +126,7 @@ nav ul li {
 
 
 .option a:hover{
-    box-shadow: 0px 2px 0px 0px red;
+    box-shadow: 0px 2px 0px 0px brown;
     font-weight: bold;
 }
 
@@ -271,8 +271,10 @@ nav ul li {
     .signature p{
         padding: 24px;
         color:red;
-        
-    }
+        }
+        .signature p:hover{
+            font-weight: bold;
+        }
 
     /*  */
     .usp-special{
@@ -312,6 +314,7 @@ nav ul li {
             color:red;
             text-align: center;
         }
+     
         /* partie de la photo avec adresse */
         .photo-adresse{
             width: 100%;
